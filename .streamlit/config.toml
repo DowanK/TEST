@@ -1,0 +1,2 @@
+[server]
+pre_launch = "export JAVA_HOME=$(dirname $(dirname $(readlink -f $(which javac)))) && export PATH=$JAVA_HOME/bin:$PATH"
