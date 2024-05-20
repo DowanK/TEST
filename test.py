@@ -21,7 +21,7 @@ import tempfile
 st.set_page_config(page_title="KT 수행 변호사 봇", page_icon="🐧")
 st.title("🐧KT 수행 변호사 봇🐧")
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-q5bTyjC1ilfOzEDvTqHgT3BlbkFJmVT5fJCVa5MefPduXJPf"
+os.environ["OPENAI_API_KEY"] = "e"
 embedding = OpenAIEmbeddings(model="text-embedding-ada-002")
 
 if "messages" not in st.session_state:
