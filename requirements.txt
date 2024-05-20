@@ -10,4 +10,3 @@ konlpy
 pymupdf
 jpype1
 rank_bm25
-CharacterTextSplitter
