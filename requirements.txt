@@ -14,3 +14,5 @@ langchain_upstage==0.1.7
 pandas
 IPython
 langgraph
+scikit-learn
+cosine_similarity
