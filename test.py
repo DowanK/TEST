@@ -225,7 +225,7 @@ def main():
                     st.info("아직 제출된 챗봇 답변 피드백이 없습니다.")
         else:    
 
-            os.environ["OPENAI_API_KEY"] = "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"
+            os.environ["OPENAI_API_KEY"] = "sk-vKg7RgOJ7uL-el_lIcjpc--rR70WRr6TZ8SfgePSyPT3BlbkFJRDIYTxkrXqBgV27ugOTdZfhOEvMeFg9ga0HXvDDM8A"
             os.environ["UPSTAGE_API_KEY"] = "up_rWvsR4s5dHERp6Y9D77KFp2UmEV5F"
             os.environ["LANGCHAIN_TRACING_V2"] = "true"
             os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
